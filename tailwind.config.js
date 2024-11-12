@@ -32,7 +32,8 @@ export default {
         bold: '700'
       },
       backgroundImage: {
-        parallax: "url('src/assets/images/f0x-home-top-cover.webp')"
+        parallax: "url('src/assets/images/f0x-home-top-cover.webp')",
+        logo: "url('src/assets/images/f0x-home.logo.svg')"
       }
     }
   },
