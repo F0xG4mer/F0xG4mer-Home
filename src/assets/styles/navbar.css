@@ -1,0 +1,8 @@
+.navbar {
+    border-radius: 
+    2rem 0 0 2rem;
+}
+
+.active {
+    border-bottom: 4px solid #fff;
+}

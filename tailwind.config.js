@@ -30,6 +30,10 @@ export default {
       fontWeight: {
         normal: '400',
         bold: '700'
+      },
+      backgroundImage: {
+        parallax: "url('src/assets/images/f0x-home-top-cover.webp')",
+        logo: "url('src/assets/images/f0x-home-logo.svg')"
       }
     }
   },

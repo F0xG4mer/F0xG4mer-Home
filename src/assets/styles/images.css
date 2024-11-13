@@ -1,3 +1,14 @@
 .cover-image {
-    width: 100%;
+    background-size: cover;
+}
+
+.image-border-bottom {
+    border-bottom: 5px solid var(--white-border);
+}
+
+.parallax {
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    perspective: 1px;
 }
