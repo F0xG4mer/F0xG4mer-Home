@@ -11,6 +11,11 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
     "@vueuse/motion": "^2.2.6",
     "pinia": "^2.2.6",
     "vue": "^3.5.12",
