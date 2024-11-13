@@ -17,7 +17,7 @@ import LogoImage from './LogoImage.vue';
                         opacity: 1,
                         y: 0,
                     }">
-                    <p class="text-white text-lg font-mono">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <p class="text-white text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Numquam aut sapiente cum, cupiditate id officia accusamus accusantium dicta fugiat!
                         Doloribus
                         repellat, animi aliquid dolore dolorum delectus qui alias sapiente culpa!</p>
