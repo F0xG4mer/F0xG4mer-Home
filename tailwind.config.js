@@ -33,7 +33,7 @@ export default {
       },
       backgroundImage: {
         parallax: "url('src/assets/images/f0x-home-top-cover.webp')",
-        logo: "url('src/assets/images/f0x-home.logo.svg')"
+        logo: "url('src/assets/images/f0x-home-logo.svg')"
       }
     }
   },
