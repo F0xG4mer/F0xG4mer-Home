@@ -10,5 +10,14 @@
     overflow-x: hidden;
     overflow-y: auto;
 
-    perspective: 1px;
 }
+
+.logo-glow {
+    
+    filter: drop-shadow(3px 3px 5px #000000);
+    -webkit-filter: drop-shadow(3px 3px 5px #000000);
+    -moz-filter: drop-shadow(3px 3px 5px #000000);
+}
+
+
+  

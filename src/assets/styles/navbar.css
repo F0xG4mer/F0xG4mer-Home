@@ -4,5 +4,6 @@
 }
 
 .active {
-    border-bottom: 4px solid #fff;
+    color: #fff;
+    opacity: 100%;
 }

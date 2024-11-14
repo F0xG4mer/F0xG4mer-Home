@@ -17,10 +17,11 @@ import LogoImage from './LogoImage.vue';
                         opacity: 1,
                         y: 0,
                     }">
-                    <p class="text-white text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Numquam aut sapiente cum, cupiditate id officia accusamus accusantium dicta fugiat!
-                        Doloribus
-                        repellat, animi aliquid dolore dolorum delectus qui alias sapiente culpa!</p>
+                    <p class="text-white text-lg text-shadow-5">Hello! I'm F0x, a 3D Artist and Programmer with a passion for creating fun and exciting Videos.
+                    My work primarily revolves around the game Minecraft, where I specialize in bringing blocks to life through movement and animation.
+
+<br> <br> I use Autodesk Maya as my primary software to craft detailed 3D assets and bring them to life. 
+I'm always excited to bring my ideas to reality.</p>
                 </div>
 
             </div>

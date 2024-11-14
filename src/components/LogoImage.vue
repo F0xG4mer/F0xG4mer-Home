@@ -3,7 +3,7 @@
 </script>
 
 <template>
-        <div class="bg-logo bg-no-repeat bg-contain h-64" 
+        <div class="bg-logo bg-no-repeat bg-contain h-64 logo-glow logo" 
                 v-motion 
                 :delay="400"
                 :initial="{
