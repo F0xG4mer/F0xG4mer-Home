@@ -4,7 +4,7 @@ import LogoImage from './LogoImage.vue';
 
 <template>
     <div class="h-screen z-0
-    bg-fixed bg-parallax bg-cover cover-image lg:p-72 md:p-44 sm:p-7">
+    bg-fixed bg-parallax bg-cover cover-image lg:p-72 md:p-44 sm:p-7 image-border-bottom">
         <div class="w-3/4">
             <div class="grid grid-rows-2 grid-cols-1 w-8/12 min-w-96">
                 <div class="content h-fit row-start-1">

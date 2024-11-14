@@ -3,6 +3,7 @@ import './assets/styles/images.css'
 import './assets/styles/_variables.css'
 import './assets/styles/button.css'
 import './assets/styles/navbar.css'
+import './assets/styles/containers.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
