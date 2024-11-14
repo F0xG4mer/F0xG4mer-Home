@@ -12,31 +12,26 @@ const router = createRouter({
     {
       path: '/home',
       name: 'home',
-      component: HomeView,
-      meta: { transition: 'slide-left' },
+      component: HomeView
     },
     {
       path: '/projects',
       name: 'projects',
-      component: PageNotFound,
-      meta: { transition: 'slide-right' },
+      component: PageNotFound
     },
     {
       path: '/models',
       name: 'models',
-      component: PageNotFound,
-      meta: { transition: 'slide-right' },
+      component: PageNotFound
     },
     {
       path: '/contact',
       name: 'contact',
-      component: PageNotFound,
-      meta: { transition: 'slide-right' },
+      component: PageNotFound
     },
     {
       path: '/:catchAll(.*)',
-      component: PageNotFound,
-      meta: { transition: 'slide-right' },
+      component: PageNotFound
     }
   ],
 })
