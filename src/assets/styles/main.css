@@ -1,21 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
 
 :root {
   overscroll-behavior: none;
-}
-body {
-  background: #1b0727;
-  background: -moz-linear-gradient(0deg, #1b0727 0%, hsl(262, 49%, 14%) 30%, #0e1535 100%);
-  background: -webkit-linear-gradient(0deg, #1b0727 0%, rgba(31,18,53,1) 30%, rgb(14, 21, 53) 100%);
-  background: linear-gradient(0deg, #1b0727 0%, rgba(31,18,53,1) 30%, #0e1535 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b0727",endColorstr="#0e1535",GradientType=1); 
-  background-position-y: 50%;
-  cursor: default;
-
-
 }
 
 .no-select {
@@ -31,6 +20,15 @@ body {
   pointer-events: none;
 }
 
+html {
+  background: rgb(45,16,61);
+  background: -moz-linear-gradient(90deg, rgba(45,16,61,1) 0%, rgba(25,34,54,1) 49%, rgba(33,52,96,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(45,16,61,1) 0%, rgba(25,34,54,1) 49%, rgba(33,52,96,1) 100%);
+  background: linear-gradient(90deg, rgba(45,16,61,1) 0%, rgba(25,34,54,1) 49%, rgba(33,52,96,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2d103d",endColorstr="#213460",GradientType=1); 
+  background-position-y: 50%;
+  cursor: default;
+}
 html, body {
     margin: 0;
     font-family: "Cabin", monospace;
@@ -39,4 +37,14 @@ html, body {
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
+}
+
+.text-blue-white {
+  color: var(--white-border);
+}
+
+.text-shadow-5 {
+  filter: drop-shadow(3px 3px 5px #000000);
+  -webkit-filter: drop-shadow(3px 3px 5px #000000);
+  -moz-filter: drop-shadow(3px 3px 5px #000000);
 }

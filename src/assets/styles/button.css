@@ -1,7 +1,20 @@
 .nav-button {
-    transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 
 .nav-button:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.icon-button {
+  transition: all 250ms ease-in-out;
+}
+
+.icon-button:hover {
+  transform: scale(1.2);
+
+  filter: drop-shadow(0px 0px 4px #ffffffce);
+  -webkit-filter: drop-shadow(0px 0px 4px #ffffffce);
+  -moz-filter: drop-shadow(0px 0px 4px #ffffffce);
+
 }

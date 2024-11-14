@@ -1,5 +1,7 @@
 <script setup lang="ts">
+import SocialMedia from '@/components/SocialMedia.vue';
 import CoverImage from '../components/CoverImage.vue';
+import UnderConstruction from '@/components/UnderConstruction.vue';
 </script>
 
 <template>
@@ -28,66 +30,8 @@ import CoverImage from '../components/CoverImage.vue';
     </div>
   </div>
 
+  <SocialMedia/>
 
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-
-
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
-  <h1>content</h1>
+  <UnderConstruction/>
 
 </template>

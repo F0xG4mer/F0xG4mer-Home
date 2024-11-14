@@ -3,9 +3,11 @@
 
 
 <template>
-    <div class="fixed text-white 
+    <div class="fixed 
+    text-white
     text-xl
     font-semibold
+    z-10
     flex flex-row justify-around  
     w-2/5 right-0 top-4 p-4
     backdrop-blur-lg backdrop-brightness-50 navbar" v-motion :delay="250" :initial="{
@@ -23,7 +25,7 @@
                 </button>
             </router-link>
         </div>
-        <div class="flex gap-3">
+        <div>
             <router-link active-class="active" :to="{ name: 'projects' }">
 
                 <button class="flex gap-3 nav-button">
@@ -32,7 +34,7 @@
                 </button>
             </router-link>
         </div>
-        <div class="flex gap-3">
+        <div>
             <router-link active-class="active" :to="{ name: 'models' }">
 
                 <button class="flex gap-3 nav-button">
@@ -41,7 +43,7 @@
                 </button>
             </router-link>
         </div>
-        <div class="flex gap-3">
+        <div>
             <router-link active-class="active" :to="{ name: 'contact' }">
                 <button class="flex gap-3 nav-button">
                     <font-awesome-icon :icon="['fas', 'envelope']" size="lg" />

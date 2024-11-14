@@ -6,24 +6,32 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
+      path: '/',
+      redirect: 'home'
+    },
+    {
       path: '/home',
       name: 'home',
-      component: HomeView,
+      component: HomeView
     },
     {
       path: '/projects',
       name: 'projects',
-      component: PageNotFound,
+      component: PageNotFound
     },
     {
       path: '/models',
       name: 'models',
-      component: PageNotFound,
+      component: PageNotFound
     },
     {
       path: '/contact',
       name: 'contact',
-      component: PageNotFound,
+      component: PageNotFound
+    },
+    {
+      path: '/:catchAll(.*)',
+      component: PageNotFound
     }
   ],
 })
