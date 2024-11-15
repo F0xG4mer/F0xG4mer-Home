@@ -2,6 +2,13 @@
 import SocialMedia from '@/components/SocialMedia.vue';
 import CoverImage from '../components/CoverImage.vue';
 import UnderConstruction from '@/components/UnderConstruction.vue';
+
+function scrollDown() {
+    window.scrollTo({
+        top: 1200,
+        behavior: 'smooth',
+    });
+}
 </script>
 
 <template>
@@ -26,7 +33,7 @@ import UnderConstruction from '@/components/UnderConstruction.vue';
       ease: 'easeInEaseOut'
     },
   }">
-      <font-awesome-icon class="text-white" :icon="['fas', 'arrow-down']" size="4x" />
+      <font-awesome-icon class="text-white cursor-pointer" :icon="['fas', 'arrow-down']" size="4x" @click="scrollDown" />
     </div>
   </div>
 
